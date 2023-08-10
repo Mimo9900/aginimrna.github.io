@@ -1,0 +1,45 @@
+.section {
+  padding-top: 40px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
+  
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main {
+  margin-bottom: 4rem;
+}
+
+.flex-container {
+  display: flex;
+  width: 100%;
+  padding: 3rem;
+  gap: 8rem;
+}
+
+.socend-grid {
+  width: 70%;
+  margin-left: auto;
+}
+
+.socend-grid {
+  display: grid;
+}
+
+.cart-parint-tocheck {
+  width: 10rem;
+  height: auto;
+  
+}
+

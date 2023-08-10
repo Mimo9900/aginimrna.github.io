@@ -1,0 +1,558 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Naser-logo {
+  display: flex;
+  width: 100%;
+  height: 9rem;
+  padding: 4rem;
+  background-color: #0c1d36;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.Naser-logos {
+  width: 5%;
+  height: auto;
+}
+
+.Naser-how {
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+  color: #333;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #f9cc0b;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.Naser-Powered {
+  display: flex;
+  flex-direction: column;
+  color: #ffff;
+  margin-right: auto;
+  padding: 2rem;
+}
+
+.header-powered {
+  letter-spacing: 1rem;
+}
+
+main {
+  background-image: url(/img/silivan-munguarakarama-Hing5iQTUnM-unsplash.jpg);
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+}
+
+.testiomaial-text {
+  color: #ffff;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  transform: translate(+10%, 50%);
+}
+
+.testiomaial-text-header {
+  margin-bottom: 2rem;
+  font-weight: 700;
+  font-size: 4rem;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+
+.testiomaial-text-headerp {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 6rem;
+}
+
+strong {
+  color: #f9cc0b;
+}
+
+.trad-in {
+  padding: 2rem 2rem;
+  border-radius: 9px;
+  color: #333;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #f9cc0b;
+  font-weight: 700;
+  font-size: 1.5rem;
+  height: 5rem;
+}
+
+.how-to::before {
+  content: "";
+  position: absolute;
+  top: 60;
+  left: 6%;
+  z-index: -1;
+  width: 10%;
+  padding-bottom: 2%;
+  display: block;
+  background-color: #f9cc0b;
+}
+
+.how-to {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.logo {
+  width: 5%;
+}
+
+.flex-second {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid #adb5bd;
+  color: #333;
+
+  padding: 2rem;
+}
+
+.flex-second p {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.parent-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 50%;
+}
+
+.the-boxes1 {
+  background-color: #0c1d36;
+  width: 2rem;
+  height: 2rem;
+  background-color: #f9cc0b;
+  border-radius: 50%;
+}
+
+.parent-flex2 p {
+  display: inline-block;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.the-boxes2 {
+  width: 20rem;
+  height: 0.5rem;
+  background-color: #495057;
+}
+
+.parent-flex2 {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10rem;
+  row-gap: 2rem;
+}
+
+.the-boxes3 {
+  width: 35rem;
+  height: 0.5rem;
+  background-color: #495057;
+}
+
+.first-cart {
+  border: 2px solid #f9cc0b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.9rem;
+  width: 14rem;
+  height: 16rem;
+  margin-bottom: 6rem;
+}
+
+.logos {
+  width: 60%;
+  margin-bottom: 2rem;
+}
+
+.phone-stars {
+  width: 10%;
+  stroke: #f9cc0b;
+  fill: #f9cc0b;
+  margin-bottom: 1rem;
+}
+
+.icon-box {
+  display: flex;
+  justify-content: center;
+}
+
+.second-cart {
+  width: 14rem;
+  height: 16rem;
+  border: 1px solid #f9cc0b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.9rem;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.thred-cart {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  padding: 1rem;
+  border-radius: 0.9rem;
+}
+
+.thred-cart-box {
+  gap: 2rem;
+  display: inline-block;
+
+  border-radius: 0.9rem;
+  border: 2px solid #f9cc0b;
+  font-size: 1.4rem;
+  padding: 2rem;
+  width: 15rem;
+  text-align: center;
+}
+
+.child-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.center {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.main-action {
+  height: 100rem;
+}
+
+.center-left {
+  margin-bottom: 7rem;
+  color: #333;
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+.open-and {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-right: 3rem;
+  width: 100%;
+  height: 5rem;
+  font-size: 1.4rem;
+  color: #333;
+  gap: 3rem;
+}
+
+.open-and p {
+  background-color: #0c1d36;
+
+  border-radius: 9px;
+  text-align: center;
+  padding: 0.5rem;
+  color: #ffff;
+}
+
+.parent-of-imgbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  width: 100%;
+  height: 10rem;
+  /* background-color: #f1f3f5; */
+  box-shadow: 0px -2px 8px -5px rgba(0, 0, 0, 0.86);
+  -webkit-box-shadow: 0px -2px 8px -5px rgba(0, 0, 0, 0.86);
+  -moz-box-shadow: 0px -2px 8px -5px rgba(0, 0, 0, 0.86);
+  background-color: #fff;
+  padding: 4rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.parent-of-imgbox p {
+  font-size: 2rem;
+}
+
+.ihpne-img {
+  width: auto;
+  height: 10rem;
+  padding: 1rem;
+}
+
+.trad-in2 {
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  background-color: #f9cc0b;
+  height: 4rem;
+  border-radius: 9px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #333;
+}
+
+.parentOf-2 {
+  display: flex;
+  gap: 2rem;
+  height: 20vh;
+}
+
+.child {
+  padding: 1rem 4rem;
+  height: 5rem;
+  width: auto;
+}
+
+.button-iphone14 {
+  padding: 2rem 5rem;
+}
+
+.classOf-Iphone14 {
+  text-align: center;
+}
+
+.button-ihpne14-pluses {
+  text-align: center;
+}
+
+.button-iphone14-plus {
+  padding: 2rem 5rem;
+}
+
+.button-iphone14-plus-information {
+  text-align: center;
+
+  /* display: flex;
+  flex-direction: column;
+  
+  padding: 3rem;
+  gap: 1rem; */
+}
+
+.button-ihpne14-pluses {
+  display: grid;
+  grid-template-columns: 3fr;
+}
+
+.button-iphone14-plus-information li {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #e9ecef;
+  /* opacity: 1; */
+}
+
+/* .list li {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+
+} */
+
+.button-iphone14-plus-information ul {
+  padding: 2rem;
+}
+
+.topof-parent {
+  width: 100%;
+}
+
+.ihpneplus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  height: 4rem;
+  cursor: pointer;
+  font-size: 2rem;
+  border-radius: 9px;
+  border-bottom: 2px solid gray;
+  background-color: #0c1d36;
+  color: #fff;
+}
+
+.parent > .grid-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.h1-center {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #333;
+}
+
+.child {
+  height: 20rem;
+  padding: 2rem 4rem;
+  width: 20rem;
+  border: none;
+  background-color: inherit;
+  border-radius: 9px;
+  border: 2px solid #f9cc0b;
+}
+
+.smartPhone-img {
+  height: auto;
+  width: 10rem;
+}
+
+
+.button {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 20rem;
+  height: 10rem;
+  cursor: pointer;
+  border-radius: 9px;
+  padding: 1rem;
+  font-size: 2rem;
+  color: #333;
+  border: 2px solid #333;
+  
+}
+
+
+.iphone-14  {
+display: flex;
+gap: 1rem;
+flex-wrap:wrap;
+  
+
+}
+.iphone14-pluse {
+  display: flex;
+  gap: 1rem;
+  flex-wrap:wrap;
+
+  
+}
+
+.iphone14-pro {
+  display: flex;
+  gap: 1rem;
+  flex-wrap:wrap;
+ 
+  
+}
+
+.iPhoneSE {
+  display: flex;
+  gap: 1rem;
+  flex-wrap:wrap;
+}
+
+.iphone-room {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 10rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+  color: #333;
+  border-radius: 9px;
+ 
+  border: 2px solid #f9cc0b;
+
+} 
+
+.apple {
+  display: inline-block;
+  height: 15rem;
+  width: 15rem;
+ border: 1px solid #333;
+  border-radius: 9px;
+
+  background-color: #ffff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.apple::after{
+  content: "hellow";
+  position:absolute;
+  width: 15rem;
+  top: 1rem; 
+  right: -5rem;
+  background-color: #f9cc0b;
+  transform: rotate(40deg);
+  
+}
+.list {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.list li {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.expand {
+  max-height: 200px; /* Adjust the value to fit your content */
+}
+
+.expand li {
+  opacity: 1;
+}
+
+.parent .grid-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.parent .grid-box .child {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  border: none;
+  background-color: inherit;
+  border-radius: 9px;
+  border: 2px solid #f9cc0b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parent .grid-box .child .smartPhone-img {
+  height: auto;
+  width: 10rem;
+}
